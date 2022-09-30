@@ -1,0 +1,57 @@
+file_type: csv
+dataset_name: testfile
+file_name: parking_tickets
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - issuer_precinct
+    - unregistered_vehicle
+    - date_first_observed
+    - violation_location
+    - violation_precinct
+    - community_board
+    - street_name
+    - street_code1
+    - feet_from_curb
+    - issuer_command
+    - street_code2
+    - violation_code
+    - plate_id
+    - violation_legal_code
+    - double_parking_violation
+    - issuer_squad
+    - census_tract
+    - bin
+    - vehicle_make
+    - nta
+    - no_standing_or_stopping_violation
+    - registration_state
+    - vehicle_color
+    - bbl
+    - street_code3
+    - vehicle_body_type
+    - violation_county
+    - violation_in_front_of_or_opposite
+    - violation_time
+    - community_co
+    - meter_number
+    - from_hours_in_effect
+    - intersecting_street
+    - issue_date', 'to_hours_in_effect
+    - violation_description
+    - violation_post_code
+    - law_section
+    - issuer_code
+    - days_parking_in_effect
+    - hydrant_violation
+    - latitude
+    - summons_number
+    - vehicle_expiration_date
+    - vehicle_year
+    - sub_division
+    - time_first_observed
+    - issuing_agency
+    - plate_type
+    - longitude
